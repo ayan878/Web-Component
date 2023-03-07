@@ -11,3 +11,35 @@ body {
   color: #343a40;
   line-height: 1;
 }
+img {
+  width: 200px;
+  border-radius: 8px;
+  transform: scale(1.5);
+}
+.carousel {
+  width: 800px;
+  background-color: #087f5b;
+  margin: 100px auto;
+  padding-left: 206px;
+  padding: 32px;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  gap: 86px;
+  align-items: center;
+}
+.testmonial-text {
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #fff;
+}
+.testmonial-author {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #fff;
+}
+.testmonial-job {
+  font-size: 12px;
+}
