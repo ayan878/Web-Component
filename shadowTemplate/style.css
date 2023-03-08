@@ -4,12 +4,47 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "inter", sans-serif;
+}
+.title {
+  margin-top: 100px;
+  text-align: center;
 }
 .container {
-  width: 300px;
-  margin: 30px 10px;
+  width: 200px;
+  margin: 20px 200px 20px 200px;
+  /* margin-right: 100px; */
   padding: 20px, 15px;
   display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 14px;
+}
+.card {
+  border-radius: 8px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
   flex-direction: column;
-  box-shadow: 0.5px;
+}
+.text {
+  line-height: 1.5;
+  margin-left: 16px;
+  color: #9e6767;
+  padding: 10px;
+}
+h3 {
+  margin-left: 14px;
+  color: #087f5b;
+}
+.icon {
+  height: 16px;
+  width: 22px;
+  stroke: #087f5b;
 }
